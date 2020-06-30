@@ -1,0 +1,13 @@
+package operator;
+
+public class Operator_practice {
+	// if-else if로 그리고 switch -case로 사칙연산 구현
+	// 다이아몬드 출력
+	public static void main(String[] args) {
+		int length = 7;
+		
+		for(int i = 0; i < length; i++) {
+			
+		}
+	}
+}

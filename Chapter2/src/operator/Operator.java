@@ -1,0 +1,23 @@
+package operator;
+
+public class Operator {
+	public static void main(String[] args) {
+		// short circuit evaluation (단락 회로 평가)
+		//비트 연산자.
+		int num1 = 0B001010;
+		int num2 = 0B000101;
+		
+		System.out.println(num1 & num2);
+		System.out.println(num1 | num2);
+		System.out.println(num1 ^ num2);
+		
+		System.out.println(num2 << 3);
+		System.out.println(num2);
+		System.out.println(num2 <<= 3);
+		System.out.println(num2);
+		System.out.println(num2 >> 2);
+		System.out.println(num2);
+		System.out.println(num2 >>= 2);
+		System.out.println(num2);
+	}
+}

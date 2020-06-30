@@ -1,0 +1,13 @@
+package object.practice;
+
+public class Main {
+	public static void main(String[] args) {
+		Person person = new Person();
+		person.setAge(40);
+		person.setName("James");
+		person.setIsMarriage(true);
+		person.setChildrenCnt(3);
+		
+		System.out.println(person.toString(););
+	}
+}
